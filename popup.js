@@ -1,10 +1,11 @@
-//OBJETO PARA ASIGNAR EVNTOS EN ELEMENTOS QUE DETONAN UNA ANIMACION DADA
+
 
 
 
 
 //LISTA DE TODOS LOS CODIGOS INTERNACIONALES TELEFONICOS DE LOS PAÍSES DEL MUNDO
 
+ export const deployPopUp=()=>{
 
 const countries = [  { name: 'Afganistán', code: '+93', bp:"-64px -16px;" },  { name: 'Albania', code: '+355', bp:"-112px -16px;" },  { name: 'Alemania', code: '+49'},  { name: 'Andorra', code: '+376' },  { name: 'Angola', code: '+244' },  { name: 'Anguila', code: '+1264' },  { name: 'Antigua y Barbuda', code: '+1268' },  { name: 'Arabia Saudita', code: '+966' },  { name: 'Argentina', code: '+54' },  { name: 'Armenia', code: '+374' },  { name: 'Aruba', code: '+297' },  { name: 'Australia', code: '+61' },  { name: 'Austria', code: '+43' },  { name: 'Azerbaiyán', code: '+994' },  { name: 'Bahamas', code: '+1242' },  { name: 'Bahréin', code: '+973' },  { name: 'Bangladés', code: '+880' },  { name: 'Barbados', code: '+1246' },  { name: 'Bélgica', code: '+32' },  
 { name: 'Bermudas', code: '+1441' }, { name: 'Bielorrusia', code: '+375' }, { name: 'Birmania', code: '+95' }, { name: 'Bolivia', code: '+591' }, { name: 'Bosnia y Herzegovina', code: '+387' }, { name: 'Botsuana', code: '+267' }, { name: 'Brasil', code: '+55' }, { name: 'Brunéi', code: '+673' }, { name: 'Bulgaria', code: '+359' }, { name: 'Burkina Faso', code: '+226' }, { name: 'Burundi', code: '+257' }, { name: 'Bután', code: '+975' }, { name: 'Cabo Verde', code: '+238' }, { name: 'Camboya', code: '+855' }, { name: 'Camerún', code: '+237' }, { name: 'Canadá', code: '+1' }, { name: 'Chad', code: '+235' }, { name: 'Chile', code: '+56' }, { name: 'China', code: '+86' }, { name: 'Chipre', code: '+357' }, { name: 'Ciudad del Vaticano', code: '+379' }, { name: 'Colombia', code: '+57' }, { name: 'Comoras', code: '+269' }, { name: 'Corea del Norte', code: '+850' }, { name: 'Corea del Sur', code: '+82' }, { name: 'Costa de Marfil', code: '+225' }, { name: 'Costa Rica', code: '+506' }, { name: 'Croacia', code: '+385' }, { name: 'Cuba', code: '+53' }, { name: 'Curaçao', code: '+599' }, { name: 'Dinamarca', code: '+45' }, { name: 'Dominica', code: '+1767' }, { name: 'República Dominicana', code: '+1809' }, { name: 'Ecuador', code: '+593' }, { name: 'Egipto', code: '+20' }, { name: 'El Salvador', code: '+503' }, { name: 'Emiratos Árabes Unidos', code: '+971' }, { name: 'Eritrea', code: '+291' }, { name: 'Eslovaquia', code: '+421' }, { name: 'Eslovenia', code: '+386' }, { name: 'España', code: '+34' }, { name: 'Estados Unidos de América', code: '+1' }, { name: 'Estonia', code: '+372' }, { name: 'Etiopía', code: '+251' }, { name: 'Filipinas', code: '+63' }, { name: 'Finlandia', code: '+358' }, { name: 'Fiyi', code: '+679' }, { name: 'Francia', code: '+33' }, { name: 'Gabón', code: '+241' },
@@ -25,31 +26,6 @@ const countries = [  { name: 'Afganistán', code: '+93', bp:"-64px -16px;" },  {
 { name: 'Sáhara Occidental', code: '+212' }, { name: 'Samoa', code: '+685' },
  { name: 'Samoa Americana', code: '+1684' }, { name: 'San Cristóbal y Nieves', code: '+1869' }, { name: 'San Marino', code: '+378' }, { name: 'San Vicente y las Granadinas', code: '+1784' }, { name: 'Santa Elena', code: '+290' }, { name: 'Santa Lucía', code: '+1758' }, { name: 'Santo Tomé y Príncipe', code: '+239' }, { name: 'Senegal', code: '+221' }, { name: 'Serbia', code: '+381' }, { name: 'Seychelles', code: '+248' }, { name: 'Sierra Leona', code: '+232' }, { name: 'Singapur', code: '+65' }, { name: 'Siria', code: '+963' }, { name: 'Somalia', code: '+252' }, { name: 'Sri Lanka', code: '+94' }, { name: 'Sudáfrica', code: '+27' }, { name: 'Sudán', code: '+249' },  { name: 'Suecia', code: '+46' }, { name: 'Suiza', code: '+41' }, { name: 'Surinam', code: '+597' }, { name: 'Swazilandia', code: '+268' }, { name: 'Tailandia', code: '+66' }, { name: 'Taiwán', code: '+886' }, { name: 'Tanzania', code: '+255' }, { name: 'Tayikistán', code: '+992' }, { name: 'Timor Oriental', code: '+670' }, { name: 'Togo', code: '+228' }, { name: 'Tokelau', code: '+690' }, { name: 'Tonga', code: '+676' }, { name: 'Trinidad y Tobago', code: '+1868' }, { name: 'Túnez', code: '+216' }, { name: 'Turkmenistán', code: '+993' }, { name: 'Turquía', code: '+90' }, { name: 'Tuvalu', code: '+688' }, { name: 'Ucrania', code: '+380' }, { name: 'Uganda', code: '+256' }, { name: 'Uruguay', code: '+598' }, { name: 'Uzbekistán', code: '+998' }, { name: 'Vanuatu', code: '+678' }, { name: 'Venezuela', code: '+58' }, { name: 'Vietnam', code: '+84' }, { name: 'Wallis y Futuna', code: '+681' }, { name: 'Yemen', code: '+967' }, { name: 'Yibuti', code: '+253' }, { name: 'Zambia', code: '+260' }, { name: 'Zimbabue', code: '+263' } 
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -200,12 +176,14 @@ phoneCodeButton.addEventListener("click", ()=>{
 
 phoneCodeInput.addEventListener("keydown", (e)=>{
 
+    if(popup.clientWidth>768){
+
     if((e.keyCode < 48 || e.keyCode > 57) && (e.keyCode < 96 || e.keyCode > 105) && e.keyCode !==190  && e.keyCode !==110 && e.keyCode !==8 && e.keyCode !==9  ){
         
         phoneCodeInput.value=""
         
     }
-})
+}})
 
 /*Evento keydown para la animación e incorpoación del spinner perteneciente al boton send*/
 
@@ -323,6 +301,7 @@ sendButtonBackground()
 
     if(phoneCodeInput.getAttribute("completed")){
 
+        console.log("colocar ruta")
         fetch('https://', 
         { method: 'POST', 
         headers: { 'Content-Type': 'application/json' }, 
@@ -426,10 +405,45 @@ const pop=()=>{
     
 }
 
+
 pop()
 /*})*/
 
+window.addEventListener("resize", ()=>{
+    
+   
+    if(popup.clientWidth<425){
+    
+    document.querySelector(".phone-code-inputs-container").style.width="auto"
+    
+}
 
+else{
+
+    document.querySelector(".phone-code-inputs-container").style.width="400px"
+}
+
+
+})
+
+window.addEventListener("load", ()=>{
+    
+   
+    if(popup.clientWidth<425){
+    
+    document.querySelector(".phone-code-inputs-container").style.width="auto"
+    
+}
+
+else{
+
+    document.querySelector(".phone-code-inputs-container").style.width="400px"
+}
+
+
+})
+
+}
 
 
 

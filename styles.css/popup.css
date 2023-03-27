@@ -146,12 +146,12 @@ body{
 
 .phone-code-inputs-container{
     display: flex;
-    width: 400px;
+    /*width: 400px;*/
     height: 50px;
+    width: 400px;
     
-    min-width: 320px;
-    max-width: 400px;
     border-radius: 8px;
+    padding: 0 40px ;
    
 
 }
@@ -190,7 +190,8 @@ body{
 .phone-code__input{
     
     width: 80%;
-    min-width: 320px;
+    /*min-width: 150px;
+    max-width: 400px;*/
     padding:  0 10px;
     outline: unset;
     font-size: 16px;
